@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #083a3e;
+}
+
+.container {
+    height: 60%;
+    width: 25%;
+    background: #083a3e;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+    border: 1px solid cyan;
+}
+
+.container>h2 {
+    font-size: 2rem;
+    color: #2feaff;
+}
+
+.input>p {
+    margin-top: 10px;
+    color: #57eeff;
+}
+
+.input>input {
+    margin-top: 7px;
+    padding: 7px 20px;
+    font-size: 1.5rem;
+    border: 1px solid rgb(0, 255, 255);
+    border-radius: 20px;
+    background: #083a3e;
+    color: #fff;
+}
+
+.form-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+i {
+    color: #57eeff;
+    /* padding-top: 5px; */
+    scale: 2;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+.form-left {
+    text-align: center;
+}
+
+.form-left>img {
+    position: relative;
+    left: 20px;
+}
+
+.form-right>img {
+    position: relative;
+    left: 30px;
+}
+
+.form-right {
+    text-align: center;
+}
+
+.form-left>p {
+    margin-left: -45px;
+    color: #57eeff;
+}
+
+.form-left>select {
+    position: relative;
+    left: -55px;
+    top: 30px;
+    border: 1px solid cyan;
+    border-radius: 40px;
+    padding: 4px 14px;
+    background: #083a3e;
+    color: #fff;
+}
+
+.form-right>select {
+    position: relative;
+    left: -40px;
+    top: 30px;
+    border: 1px solid cyan;
+    border-radius: 40px;
+    padding: 4px 14px;
+    background: #083a3e;
+    color: #fff;
+    overflow: hidden;
+}
+
+.form-right>p {
+    margin-left: -30px;
+    color: #57eeff;
+}
+
+.form-box {
+    position: relative;
+    left: 12px;
+}
+
+.msg {
+    margin-top: 60px;
+    color: #ff0066;
+    scale: 1.1;
+}
+
+#btn {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    padding: 0px 20px;
+    background: #083a3e;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #00d9ff;
+    cursor: pointer;
+    color: #00d9ff;
+}
